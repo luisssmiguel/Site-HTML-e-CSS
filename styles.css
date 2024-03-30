@@ -1,0 +1,118 @@
+/* Importar a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Estilos para o título com a fonte Roboto thin */
+header h1.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3f0909;
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #0084ff;
+    color: #a3ee00;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    background-color: #1500ff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Estilos para a seção com as boxes */
+.session-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Estilos para a caixa de texto adicional */
+.additional-text-box {
+    width: 45%; /* Defina a largura do texto aqui */
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0.8);
+    text-align: center;
+    margin-bottom: 20px; /* Adicionado para separação entre as caixas de texto */
+}
+
+.box-with-image-and-text {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between; /* Espaço igual entre os itens */
+    margin-bottom: 20px;
+}
+
+.image-box {
+    width: 50%; /* Defina a largura da imagem aqui */
+    height: auto; /* Altura automática para manter a proporção */
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-box {
+    width: 45%; /* Defina a largura do texto aqui */
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0.8);
+    text-align: center;
+}
+
+footer {
+    background-color: #0084ff;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+}
+
